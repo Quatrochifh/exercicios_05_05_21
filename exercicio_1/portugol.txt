@@ -1,0 +1,61 @@
+    logico respostaverdade = falso;
+            faça
+            {
+
+            escreva("insira seu nome");
+            caractere nome = Console.ReadLine();
+
+            Console.WriteLine("ola " + nome + " !!");
+
+            Console.WriteLine ("por favor " + nome + " escolha um numero de 1 a 10");
+            caractere numero = Console.ReadLine();
+
+            escolha (numero){
+                caso "1":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "2":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "3":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "4":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "5":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "6":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "7":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "8":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "9":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                caso "10":
+                    escreva("Obrigado " + nome + " seu numero é valido");
+                    respostaverdade = true;
+                    tempo;
+                default:
+                    escreva("seu numero é invalido");
+                    respostaverdade = false;
+                    tempo;
+            }
+                
+            } enquanto (respostaverdade == false);
+           

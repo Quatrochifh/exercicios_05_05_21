@@ -1,0 +1,27 @@
+            escreva("insira seu nome");
+            caractere nome = leia();
+
+            escreva("ola " + nome + " !!");
+            logico respostaverdade = false;
+       
+        faça
+        {
+            escreva("por favor, escolha seu nome de usuario\n");
+            caractere usuario = Console.ReadLine();
+
+            escreva("por favor escolha uma senha");
+            string senha = leia();
+
+            se(usuario == senha)
+            {
+                respostaverdade = false;
+                escreva("insira uma senha diferente do usuario\n");
+
+            }senao{ respostaverdade = true;
+                escreva("esta correto, muito obrigado " + nome + "!");
+                
+            }
+
+          } enquanto (respostaverdade == false);
+
+        }
